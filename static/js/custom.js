@@ -65,15 +65,17 @@
     ----------------------*/
     GUPPY.mTypeIt = function() {
         new TypeIt('#type-it', {
-            speed: 200,
+            speed: 120,
             loop:true,
             strings: [
-              'Engineer',
-              'Innovator'
+              'Raj.',
+              'An Engineer.',
+              'A Researcher.'
             ],
             breakLines: false
         }); 
     }
+
 
 
     /*--------------------
